@@ -36,16 +36,16 @@ public class Sql2oCourseDaoTest {
         assertEquals(course, courseDao.findById(course.getCourseId()));
     }
     //test addCourseToSchool
-//    @Test
-//    public void addCourseToSchool() throws Exception {
-//        Course newCourse = newCourse();
-//        courseDao.add(newCourse);
-//        Course newAltCourse = newAltCourse();
-//        courseDao.add(newAltCourse);
-//        courseDao.addCourseToSchool("San Diego", newCourse.getCourseId());
-//        courseDao.addCourseToSchool("Portland", newAltCourse.getCourseId());
-//        assertEquals(Arrays.asList(newAltCourse), courseDao.getAllCoursesByLocation("Portland"));
-//    }
+    @Test
+    public void addCourseToSchool() throws Exception {
+        Course newCourse = newCourse();
+        courseDao.add(newCourse);
+        Course newAltCourse = newAltCourse();
+        courseDao.add(newAltCourse);
+        courseDao.addCourseToSchool("San Diego", newCourse.getCourseId());
+        courseDao.addCourseToSchool("Portland", newAltCourse.getCourseId());
+        assertEquals(Arrays.asList(newAltCourse), courseDao.getAllCoursesByLocation("Portland"));
+    }
     //test update
 //    @Test
 //    public void updateCost() throws Exception {
