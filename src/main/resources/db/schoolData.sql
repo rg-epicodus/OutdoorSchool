@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS school (
   location VARCHAR,
 );
 
-CREATE TABLE IF NOT EXISTS students (
+CREATE TABLE IF NOT EXISTS student (
   id int PRIMARY KEY auto_increment,
   courseId int,
   name VARCHAR,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS alumni (
   age int,
 );
 
-CREATE TABLE IF NOT EXISTS school_courses (
+CREATE TABLE IF NOT EXISTS school_course (
   id int PRIMARY KEY auto_increment,
   location VARCHAR,
   courseId int,

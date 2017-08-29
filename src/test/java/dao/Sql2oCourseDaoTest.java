@@ -35,6 +35,7 @@ public class Sql2oCourseDaoTest {
         courseDao.add(course);
         assertEquals(course, courseDao.findById(course.getCourseId()));
     }
+
     //test addCourseToSchool
     @Test
     public void addCourseToSchool() throws Exception {
@@ -46,6 +47,7 @@ public class Sql2oCourseDaoTest {
         courseDao.addCourseToSchool("Portland", newAltCourse.getCourseId());
         assertEquals(Arrays.asList(newAltCourse), courseDao.getAllCoursesByLocation("Portland"));
     }
+
     //test update
 //    @Test
 //    public void updateCost() throws Exception {
