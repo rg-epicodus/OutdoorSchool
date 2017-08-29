@@ -1,11 +1,8 @@
-# Welcome to the FRIDAY PLACEHOLDER PROJECT!
+# Welcome to Outdoor School!
 
-FRIDAY PLACEHOLDER PROJECT is a project for the Java Course Week 2 Code Review at [Epicodus](https://www.epicodus.com/) Code School.
+Outdoor School is a place where you can sign up for classes or camps to learn about nature and the place of Humans on Planet Earth.
 
-FRIDAY PLACEHOLDER PROJECT offers a few key features:
-- Enter in information for PLACEHOLDER
-- Enter in more information for PLACEHOLDER
-- Retrieve and View information
+
 
 
 ## Setup/Installation Requirements
@@ -13,24 +10,6 @@ FRIDAY PLACEHOLDER PROJECT offers a few key features:
 * Clone the repo
 * Open in your favorite editor
 * Run app.java
-* Download Postman to run the API through for the project:
-* Set the HTTP request type to POST so we can create a record before we can read it
-![ScreenShot](screenshot01.jpg)
-* Point the URL to localhost:4567/restaurants/new
-* Select the radio button marked "raw", and the type to " JSON application/json" in the dropdown menu.
-* Select the Body radio button, and copy in JSON below.
-
-  <pre><code>
-  }
-  }
-  </code></pre>
-
-
-* Let's retrieve them. Open a new Postman tab, and:
-![ScreenShot](screenshot02.jpg)
-* Set the type to GET, Point the URL to localhost:4567/restaurants
-* Hit Send!
-* I don't know Perry, Magnets and Science, amazing stuff here....
 
 
 ## Specifications
