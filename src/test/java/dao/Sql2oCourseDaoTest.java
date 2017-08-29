@@ -31,7 +31,7 @@ public class Sql2oCourseDaoTest {
     //test add
     @Test
     public void add() throws Exception {
-        Course courses = newCourse();
+        Course course = newCourse();
         courseDao.add(course);
         assertEquals(course, courseDao.findById(course.getCourseId()));
     }
